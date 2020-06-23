@@ -1,0 +1,43 @@
+.slides h3,
+.slides h5 {
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+hr {
+  height: 2px;
+  background-color: lightblue;
+  border-radius: 2px;
+}
+
+#about-us,
+#why-us,
+#testimoni {
+  margin-top: 100px;
+}
+
+#why-us {
+  background-color: rgba(153, 243, 255, 0.1);
+}
+
+#why-us img {
+  height: 150px;
+}
+
+#testimoni img {
+  height: 60px;
+}
+
+#testimoni .row:nth-child(3) .col:nth-child(even) .card{
+  background-color: rgba(173, 216, 230, 0.13);
+}
+#testimoni .row:nth-child(4) .col:nth-child(odd) .card{
+  background-color: rgba(173, 216, 230, 0.13);
+}
+
+
+@media only screen and (max-width: 600px) {
+  .product-image {
+    width: 300px;
+  }
+}
