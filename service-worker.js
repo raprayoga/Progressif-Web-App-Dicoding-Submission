@@ -1,6 +1,7 @@
-const CACHE_NAME = "yogaMotor";
+const CACHE_NAME = "yogaMotor v1";
 var urlsToCache = [
   "/",
+  "manifest.json",
   "/index.html",
   "/pages/home.html",
   "/pages/product.html",
@@ -43,7 +44,8 @@ var urlsToCache = [
   "/img/product/sonic-detail.png",
   "/img/product/vario.jpg",
   "/img/product/vario-detail.png",
-  "/icon.png"
+  "/icon-192x192.png",
+  "/icon-512x512.png"
 ]
  
 self.addEventListener("install", function(event) {
